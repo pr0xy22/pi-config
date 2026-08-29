@@ -1,5 +1,7 @@
 # pi-config
 
+![ViewMD preview](assets/sample.jpg)
+
 My pi configuration for AI learning sessions: a teaching skill, graded
 quizzes, question popups, session-to-Markdown logging, and visualization
 subagents.
@@ -18,6 +20,21 @@ git clone https://github.com/pr0xy22/pi-config && cd pi-config && ./install.sh /
 ```
 
 Requires [pi](https://github.com/earendil-works/pi).
+
+## How to Learn with ViewMD (Highly Recommend)
+
+
+1. Go to your learning folder and run the installation script described above.
+2. Open ViewMD and create a new Markdown (.md) file.
+3. Open Pi from your learning folder.
+4. In Pi, enter /md-log /path/to/file. This connects the current session to the Markdown file and begins writing your session notes to it.
+5. To begin a lesson, enter /teach <topic you want to learn>.
+
+ViewMD provides a clean, readable front end for following your AI learning session. However, the feature that makes this system special is /teach.
+
+The /teach method first determines what you already understand, creates a learning path from your current knowledge to your goal, and then teaches one reasoning step at a time. Each step ends with a short quiz, and the lesson advances only after you demonstrate that you understand the material.
+
+[ViewMD](https://github.com/pr0xy22/ViewMD)
 
 ## What's in it
 
