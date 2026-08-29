@@ -8,13 +8,13 @@ subagents.
 
 ```bash
 # into the current directory as the learning project:
-curl -fsSL <RAW_GITHUB_URL>/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/pr0xy22/pi-config/main/install.sh | bash
 
 # or into a specific project:
-curl -fsSL <RAW_GITHUB_URL>/install.sh | bash -s -- /path/to/project
+curl -fsSL https://raw.githubusercontent.com/pr0xy22/pi-config/main/install.sh | bash -s -- /path/to/project
 
 # or locally:
-git clone <repo> && cd pi-config && ./install.sh /path/to/project
+git clone https://github.com/pr0xy22/pi-config && cd pi-config && ./install.sh /path/to/project
 ```
 
 Requires [pi](https://github.com/earendil-works/pi).

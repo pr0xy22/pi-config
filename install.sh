@@ -9,7 +9,7 @@ set -euo pipefail
 
 # ── set this after creating the GitHub repo, e.g.
 # ── REPO="https://github.com/YOURUSER/pi-config"
-REPO="${PI_CONFIG_REPO:-}"
+REPO="${PI_CONFIG_REPO:-https://github.com/pr0xy22/pi-config}"
 
 info() { printf '\033[1;34m==>\033[0m %s\n' "$*"; }
 die()  { printf '\033[1;31merror:\033[0m %s\n' "$*" >&2; exit 1; }
