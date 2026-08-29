@@ -23,7 +23,7 @@ Read, in order, before the first question:
 2. [references/process.md](references/process.md)
 3. [references/learner-files.md](references/learner-files.md)
 4. [references/quiz-ui.md](references/quiz-ui.md) — **required.** Quizzes use the harness question tool. Never A/B/C/D in chat.
-5. `.alvar/LEARNER.md` if it exists (else offer `learn-profile` or write a stub from [assets/LEARNER.md](assets/LEARNER.md) after 3–5 questions)
+5. `.alvar/LEARNER.md` — read at the start of every session. If it does not exist, let the learner know they can create one by running `learn-profile`, but this is **not mandatory**. Continue teaching regardless.
 
 If `probe`, `learn-visual`, or `learn-verify` are installed, use them for those jobs. If not, follow the same protocols inline.
 

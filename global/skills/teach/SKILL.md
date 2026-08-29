@@ -74,7 +74,7 @@ When unsure, lean Socratic for things he can clearly reason about; otherwise nar
 
 **Tooling note.** This skill refers to a graded `quiz` tool and `ask_user_question`. Use whatever the harness provides: in Pi, `quiz` for graded checks; in Claude Code, use `AskUserQuestion` for both graded checks and preference questions. Never fall back to pasted A/B/C/D markdown quizzes. See `references/quiz-ui.md` for the per-harness mapping if available.
 
-**Before anything else, read `.alvar/LEARNER.md`** (if it exists) — it holds this learner's pace, voice, solid ground, known traps, and goals. Let it shape every explanation, and update it when the learner corrects your style or reveals new solid ground. If it does **not** exist, tell the learner and offer to create one via the `learn-profile` skill before teaching.
+**Before anything else, read `.alvar/LEARNER.md`** (if it exists) — it holds this learner's pace, voice, solid ground, known traps, and goals. Let it shape every explanation, and update it when the learner corrects your style or reveals new solid ground. If it does **not** exist, let the learner know they can create one via the `learn-profile` skill, but this is **not mandatory**. Continue teaching regardless.
 
 The two principles are *how* you teach. This is *when* — the shape of a teaching session. Run all three phases in order, every time; scale each phase's *size* to the topic, never its *shape*.
 

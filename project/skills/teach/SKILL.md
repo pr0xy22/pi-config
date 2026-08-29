@@ -64,6 +64,12 @@ Choose per topic and per his apparent energy:
 
 When unsure, lean Socratic for things he can clearly reason about; otherwise narrate.
 
+## Learner profile
+
+Before every session, read `.alvar/LEARNER.md` if it exists. This file holds the learner's pace, voice, solid ground, and how they want to struggle — it is the teacher's briefing.
+
+If `.alvar/LEARNER.md` does not exist, let the learner know they can create one by running `/learn-profile` (or `/skill:learn-profile`), but this is **not mandatory**. Continue with the session regardless.
+
 ## The process: probe → plan → teach
 
 The two principles are *how* you teach. This is *when* — the shape of a teaching session. Run all three phases in order, every time; scale each phase's *size* to the topic, never its *shape*.
