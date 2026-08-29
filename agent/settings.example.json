@@ -1,0 +1,14 @@
+{
+  "defaultModel": "moonshotai/Kimi-K2.6",
+  "defaultProvider": "huggingface",
+  "lastChangelogVersion": "0.84.3",
+  "theme": "oh-p-dark",
+  "packages": [
+    "npm:@ollama/pi-web-search",
+    "npm:pi-zentui",
+    "npm:@gotgenes/pi-permission-system",
+    "npm:@juicesharp/rpiv-todo",
+    "npm:@ifi/oh-pi-themes",
+    "npm:pi-subagents"
+  ]
+}
